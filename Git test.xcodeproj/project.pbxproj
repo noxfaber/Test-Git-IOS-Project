@@ -21,6 +21,7 @@
 		10478ECE196AE71400057177 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10478EB0196AE71400057177 /* UIKit.framework */; };
 		10478ED6196AE71400057177 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10478ED4196AE71400057177 /* InfoPlist.strings */; };
 		10478ED8196AE71400057177 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10478ED7196AE71400057177 /* Git_testTests.m */; };
+		10478EE3196AEA3B00057177 /* NXTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 10478EE2196AEA3B00057177 /* NXTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		10478ED3196AE71400057177 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		10478ED5196AE71400057177 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		10478ED7196AE71400057177 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		10478EE1196AEA3B00057177 /* NXTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTest.h; sourceTree = "<group>"; };
+		10478EE2196AEA3B00057177 /* NXTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				10478EBE196AE71400057177 /* Main.storyboard */,
 				10478EC1196AE71400057177 /* NXViewController.h */,
 				10478EC2196AE71400057177 /* NXViewController.m */,
+				10478EE1196AEA3B00057177 /* NXTest.h */,
+				10478EE2196AEA3B00057177 /* NXTest.m */,
 				10478EC4196AE71400057177 /* Images.xcassets */,
 				10478EB3196AE71400057177 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10478EBD196AE71400057177 /* NXAppDelegate.m in Sources */,
+				10478EE3196AEA3B00057177 /* NXTest.m in Sources */,
 				10478EB9196AE71400057177 /* main.m in Sources */,
 				10478EC3196AE71400057177 /* NXViewController.m in Sources */,
 			);
